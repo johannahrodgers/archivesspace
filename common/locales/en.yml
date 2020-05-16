@@ -1502,7 +1502,7 @@ en:
 
   resource:
     <<: *archival_object_attributes
-    <<: *section_tooltips
+#    <<: *section_tooltips
 #    <<: *slug_attributes
     user_defined:
       <<: *user_defined_attributes
