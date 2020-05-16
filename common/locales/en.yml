@@ -131,7 +131,7 @@ en:
 
   digital_object_component:
     <<: *digital_object_attributes
-    <<: *slug_attributes
+#    <<: *slug_attributes
     label: Label
     label_tooltip: |
         <p>A term used to describe the part and its position within the Digital Object being described. More often used for the component parts of the Digital Object than the top-level Digital Object record.</p>
