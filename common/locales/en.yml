@@ -1343,7 +1343,7 @@ en:
 
   agent_person:
     <<: *agent_attributes
-    <<: *slug_attributes
+#    <<: *slug_attributes
     _singular: Person
     _plural: People
 
