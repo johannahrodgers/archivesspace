@@ -1355,13 +1355,13 @@ en:
 
   agent_software:
     <<: *agent_attributes
-    <<: *slug_attributes
+#    <<: *slug_attributes
     _singular: Software
     _plural: Software
 
   agent_corporate_entity:
     <<: *agent_attributes
-    <<: *slug_attributes
+ #   <<: *slug_attributes
     _singular: Corporate Entity
     _plural: Corporate Entities
 
@@ -1376,7 +1376,7 @@ en:
 
   archival_object: &archival_object_attributes
     <<: *section_tooltips
-    <<: *slug_attributes
+#    <<: *slug_attributes
     title: Title
     title_tooltip: |
         <p>CONDITIONALLY REQUIRED FIELD: The title assigned to the materials described. An Archival Object must have either a Title or a Date subrecord.</p>
@@ -1503,7 +1503,7 @@ en:
   resource:
     <<: *archival_object_attributes
     <<: *section_tooltips
-    <<: *slug_attributes
+#    <<: *slug_attributes
     user_defined:
       <<: *user_defined_attributes
     id_0: Identifier
