@@ -1030,19 +1030,19 @@ ja:
 
   agent_person:
     <<: *agent_attributes
-    <<: *slug_attributes
+#    <<: *slug_attributes
     _singular: 人
     _plural: 人
 
   agent_family:
     <<: *agent_attributes
-    <<: *slug_attributes
+ #   <<: *slug_attributes
     _singular: 家族
     _plural: 家族
 
   agent_software:
     <<: *agent_attributes
-    <<: *slug_attributes
+#    <<: *slug_attributes
     _singular: ソフトウェア
     _plural: ソフトウェア
 
@@ -1063,7 +1063,7 @@ ja:
 
   archival_object: &archival_object_attributes
     <<: *section_tooltips
-    <<: *slug_attributes
+#    <<: *slug_attributes
     title: タイトル
     title_tooltip: "<p>条件付き必須フィールド：説明されたマテリアルに割り当てられたタイトル。アーカイブオブジェクトには、TitleまたはDateのいずれかのサブレコードが必要です。
       </p><p>DACS 2.3を参照</p><p>例： </p><ul><li> Graciany Miranda Archillaの論文</li><li>愛は家族の記録を作る</li><li>キャメロンファミリーアカウントブック</li><li>キャロラインとアーウィンスワンの漫画と漫画のコレクション</li><li>国立科学アカデミーの対応</li><li>オーディオとビデオの録音</li></ul>"
@@ -1152,8 +1152,8 @@ ja:
 
   resource:
     <<: *archival_object_attributes
-    <<: *section_tooltips
-    <<: *slug_attributes
+ #   <<: *section_tooltips
+  #  <<: *slug_attributes
     user_defined:
       <<: *user_defined_attributes
     id_0: 識別
