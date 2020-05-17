@@ -86,7 +86,7 @@ ja:
 
   digital_object: &digital_object_attributes
     <<: *section_tooltips
-    <<: *slug_attributes
+ #   <<: *slug_attributes
     user_defined:
       <<: *user_defined_attributes
     title: タイトル
