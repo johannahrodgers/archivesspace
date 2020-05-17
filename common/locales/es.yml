@@ -94,7 +94,7 @@ es:
 
   digital_object: &digital_object_attributes
     <<: *section_tooltips
-    <<: *slug_attributes
+#    <<: *slug_attributes
     user_defined:
       <<: *user_defined_attributes
     title: Título
@@ -133,7 +133,7 @@ es:
 
   digital_object_component:
     <<: *digital_object_attributes
-    <<: *slug_attributes
+ #   <<: *slug_attributes
     label: Etiqueta
     label_tooltip: |
         <p>Un término usado para describir la parte y su posición dentro del objeto Digital que se está describiendo. Más a menudo utilizado para los componentes del objeto Digital que el nivel récord de objeto Digital.</p>
@@ -1152,7 +1152,7 @@ es:
 
   accession:
     <<: *section_tooltips
-    <<: *slug_attributes
+  #  <<: *slug_attributes
     user_defined:
       <<: *user_defined_attributes
     accession_date: Fecha de entrada
@@ -1326,25 +1326,25 @@ es:
 
   agent_person:
     <<: *agent_attributes
-    <<: *slug_attributes
+   # <<: *slug_attributes
     _singular: Persona
     _plural: Personas
 
   agent_family:
     <<: *agent_attributes
-    <<: *slug_attributes
+    #<<: *slug_attributes
     _singular: Familia
     _plural: Familias
 
   agent_software:
     <<: *agent_attributes
-    <<: *slug_attributes
+    #<<: *slug_attributes
     _singular: Software
     _plural: Software
 
   agent_corporate_entity:
     <<: *agent_attributes
-    <<: *slug_attributes
+    #<<: *slug_attributes
     _singular: Entidad corporativa
     _plural: Entidades corporativas
 
@@ -1358,7 +1358,7 @@ es:
     related_agents: Agentes relacionados
   archival_object: &archival_object_attributes
     <<: *section_tooltips
-    <<: *slug_attributes
+    #<<: *slug_attributes
     title: Título
     title_tooltip: |
         <p>CAMPO OBLIGATORIO CONDICIONAL
@@ -1485,7 +1485,7 @@ es:
   resource:
     <<: *archival_object_attributes
     <<: *section_tooltips
-    <<: *slug_attributes
+    #<<: *slug_attributes
     user_defined:
        <<: *user_defined_attributes
     id_0: Identificador
@@ -2010,7 +2010,6 @@ es:
     repo_set_desc_required: La descripción del conjunto de repositorios es necesaria para crear un conjunto de repositorios OAI
     repo_set_name_required: El nombre del conjunto de repositorios es necesario para crear un conjunto de repositorios OAI
     is_not_present: Falta el campo requerido
-    must_be_a_valid_email_address: Debe contener una dirección válida
     sponsor_set_desc_required: Se requiere la descripción del conjunto de patrocinadores para crear un conjunto de patrocinadores de OAI
     sponsor_set_name_required: Se requiere el nombre del conjunto de patrocinadores para crear un conjunto de patrocinadores de OAI
     invalid_characters: Contiene caracteres invalidos
