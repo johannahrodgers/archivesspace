@@ -118,7 +118,7 @@ ja:
 
   digital_object_component:
     <<: *digital_object_attributes
-    <<: *slug_attributes
+#    <<: *slug_attributes
     label: ラベル
     label_tooltip: "<p>説明されているデジタルオブジェクト内のパーツとその位置を記述するために使用される用語。デジタルオブジェクトのコンポーネントの部分では、トップレベルのデジタルオブジェクトレコードより頻繁に使用されます。
       </p><p>例： </p><ul><li>オーディオ：テープ1、トラック1、セクション1など</li><li>画像：画像1、画像1など</li><li>テキスト：第1ページ、第1葉、第1章、第1章など</li><li>ビデオ：テープ1、パート1、セクション1など</li></ul>"
@@ -910,7 +910,7 @@ ja:
 
   accession:
     <<: *section_tooltips
-    <<: *slug_attributes
+  #  <<: *slug_attributes
     user_defined:
       <<: *user_defined_attributes
     accession_date: 受付日
@@ -1048,7 +1048,7 @@ ja:
 
   agent_corporate_entity:
     <<: *agent_attributes
-    <<: *slug_attributes
+#    <<: *slug_attributes
     _singular: コーポレートエンティティ
     _plural: 法人
 
